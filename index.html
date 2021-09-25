@@ -5,10 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Techies Blog</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <style>
+      /* h1 {
+        color: #eee;
+        font-size: 50px;
+        font-style: italic;
+      } */
+    </style>
   </head>
   <body>
     <main>
-      <nav>
+      <nav class="fontColors">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
@@ -20,8 +29,12 @@
       <section>
         <h1>How to get started with coding</h1>
         <figure>
-          <img src="images/techies.jpg" alt="Young people coding" />
-          <figcaption>
+          <img
+            class="imageSize"
+            src="images/techies.jpg"
+            alt="Young people coding"
+          />
+          <figcaption class="fontColors" style="font-size: 10px">
             Photo by: Photo by
             <a
               href="https://unsplash.com/@heylagostechie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
@@ -36,7 +49,7 @@
         </figure>
       </section>
       <section>
-        <article>
+        <article style="color: #eee; font-size: 18px; line-height: 22px">
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Repudiandae quis illo officiis modi odio. Error, suscipit quisquam
@@ -51,8 +64,8 @@
           </p>
         </article>
       </section>
-      
-      <footer>Copyright &copy; 2021, Techies Blog</footer>
+
+      <footer class="fontColors">Copyright &copy; 2021, Techies Blog</footer>
     </main>
   </body>
 </html>
